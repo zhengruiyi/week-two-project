@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
+
+body{
+  margin: 0 0;
+  font-family: 'PT Sans', sans-serif;
+  overflow: scroll;
+}
+
+.logo{
+  width: 85px;
+  padding: 15px;
+  background-color: #F5005B;
+  float: left;
+}
+.navigation-bar a{
+  text-align: center;
+  line-height: 40px;
+  display: block;
+  color: #FFFFFF;
+  height: 41px;
+  text-decoration: none;
+}
+.navigation-bar a:nth-of-type(1){
+  background-color: #00A5BF;
+}
+.navigation-bar a:nth-of-type(2){
+  background-color: #00B7D3;
+}
+.navigation-bar a:nth-of-type(3){
+  background-color: #00D5E7;
+}
+.get-involved{
+  margin: 30px;
+}
+.get-involved h1{
+  background-color: #0B1942;
+  color: white;
+  font-weight: 100;
+  padding-left: 15px;
+}
+
+.special-h1{
+  background-color: white;
+  color: #3A4667;
+  margin: 30px;
+  font-weight: 100;
+}
+.get-involved p{
+  line-height: 25px;
+}
+.up-next{
+  background-color: #0B1942;
+  padding-bottom: 15px;
+}
+.up-next-h1{
+  color: white;
+  font-weight: 100;
+  padding-left: 35px;
+  padding-top: 15px;
+  background-color: #0B1942;
+  margin-bottom: -21px;
+  padding-bottom: 20px;
+}
+.rashomon{
+  background-color: #E2E2E2;
+  margin: 20px;
+  display: block;
+}
+.rashomon ul{
+  position: relative;
+  left: 25px;
+  line-height: 37px;
+  list-style-type: circle;
+}
+.rashomon h2{
+  font-weight: 100;
+  padding-top: 25px;
+  margin-bottom: 10px;
+}
+.rashomon a{
+  color: #60C5D8;
+}
+.rashomon-poster{
+  width: 200px;
+  padding: 15px;
+  float: left;
+  padding-bottom: 35px;
+  padding-right: 35px;
+}
+.edison-films{
+  background-color: #E2E2E2;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.edison-films figure{
+  margin: 10px;
+  width: 200px;
+}
+.edison-films figure img{
+  width: 200px;
+}
+.edison-films figure a{
+  color: #60C5D8;
+}
+
+footer a{
+  display: block;
+  height:40px;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  color: #FFFFFF;
+
+}
+footer a:nth-of-type(1){
+  background-color: #00A5BF;
+}
+footer a:nth-of-type(2){
+  background-color: #00B7D3;
+}
+footer a:nth-of-type(3){
+  background-color: #00D5E7;
+}
+footer p{
+  background-color: #7DDFE8;
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
+@media screen and (min-width: 545px){
+  .navigation-bar{
+    background-color: #7DDFE8;
+    margin-right: -3px;
+  }
+  .navigation-bar a{
+    display: inline-block;
+    height: 124px;
+    width: 100px;
+    line-height: 124px;
+    margin-right: -5px;
+  }
+  .get-involved{
+    display: flex;
+  }
+  .get-involved div{
+    padding: 15px;
+  }
+  .get-involved div h1{
+    font-size: 25px;
+    padding: 5px 10px;
+  }
+  .edison-films figure{
+    margin: 10px;
+    width: 125px;
+  }
+  .edison-films figure img{
+    width: 125px;
+  }
+  footer{
+    display: flex;
+    background-color: #7DDFE8;
+    text-align: right;
+  }
+  footer a{
+    height: 135px;
+    width: 100px;
+    line-height: 124px;
+    margin-right: -5px;
+  }
+  footer p{
+    text-align: right;
+    line-height: 80px;
+    flex-grow: 1;
+  }
+}
+
+@media screen and (min-width: 769px){
+  .up-next{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+  }
+  .edison-films{
+
+  }
+}
