@@ -64,11 +64,9 @@ body{
 .rashomon{
   background-color: #E2E2E2;
   margin: 20px;
-  display: block;
+  display: flex;
 }
 .rashomon ul{
-  position: relative;
-  left: 25px;
   line-height: 37px;
   list-style-type: circle;
 }
@@ -182,6 +180,10 @@ footer p{
     flex-direction: row;
     align-items: flex-start;
 
+  }
+  .rashomon ul{
+    line-height: 20px;
+    list-style-type: circle;
   }
   .edison-films{
 
