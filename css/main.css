@@ -185,7 +185,11 @@ footer p{
     line-height: 20px;
     list-style-type: circle;
   }
-  .edison-films{
+  .edison-films figure{
+    width:200px;
+  }
+  .edison-films figure img{
+    width: 200px;
 
   }
 }
