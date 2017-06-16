@@ -29,6 +29,97 @@ body{
 .navigation-bar a:nth-of-type(3){
   background-color: #00D5E7;
 }
+
+.join-film-club{
+  font-weight: 100;
+  padding-left: 20px;
+}
+.upload{
+  padding-left: 20px;
+}
+
+.nameEmailPassword{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.name{
+  margin: 10px;
+  flex: 1 1 45%;
+}
+.email{
+  margin: 10px;
+  flex: 1 1 45%;
+}
+.password{
+  margin: 10px;
+  flex: 1 1 45%;
+}
+.confirmpassword{
+  margin: 10px;
+  flex: 1 1 45%;
+}
+input[type="name"]{
+  width:93%;
+  padding:10px;
+}
+input[type="email"]{
+  width:93%;
+  padding:10px;
+}
+input[type="password"]{
+  width:93%;
+  padding:10px;
+}
+input[type="cpassword"]{
+  width:93%;
+  padding:10px;
+}
+.checkboxes{
+  padding: 0px;
+}
+.checkboxes li{
+  list-style: none;
+  padding: 7px 0px;
+  margin: 10px;
+  margin-left: 20px;
+}
+
+.comments-wrapper{
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.comments{
+  width: 93%;
+}
+
+.genre{
+  font-weight: 100;
+  font-size: 15px;
+  margin: 15px;
+}
+
+.submit{
+  padding: 20px 25px;
+  margin: 20px;
+  margin-top: 10px;
+  margin-bottom:50px;
+  background-color: #F5005B;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+
+.profile-placeholder{
+  border-radius: 300px;
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  padding: 30px;
+}
+
 .get-involved{
   margin: 30px;
 }
@@ -191,6 +282,23 @@ footer p{
     line-height: 124px;
     margin-right: -5px;
   }
+
+  .first-part-wrapper{
+    float:left;
+    clear: left;
+  }
+  .nameEmailPassword{
+    margin-top: 75px;
+    margin-bottom: 105px;
+  }
+  .email{
+    margin-bottom: 40px;
+  }
+
+  .checkboxes{
+    columns: 2 8em;
+  }
+
   .get-involved{
     display: flex;
   }
@@ -234,6 +342,31 @@ footer p{
 }
 
 @media screen and (min-width: 769px){
+  .nameEmailPassword{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .password{
+    margin-top: -22px;
+    margin-bottom: 175px;
+  }
+  .confirmpassword{
+    margin-top: -22px;
+    margin-bottom: 175px;
+  }
+  .checkboxes{
+    columns: 3 8em;
+  }
+  .checkboxes li{
+    padding: 0px;
+  }
+  .comments{
+    width: 68%;
+  }
+
   .up-next{
     display: flex;
     flex-direction: row;
